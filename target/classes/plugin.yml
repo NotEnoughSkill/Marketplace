@@ -1,0 +1,22 @@
+name: Marketplace
+version: '1.0-SNAPSHOT'
+main: me.notenoughskill.marketplace.Marketplace
+api-version: '1.20'
+depend: [Vault]
+commands:
+  sell:
+    description: Lists the item in hand in the marketplace for sale.
+    usage: /sell <price>
+    permission: marketplace.sell
+  marketplace:
+    description: Displays the marketplace.
+    usage: /marketplace
+    permission: marketplace.view
+  blackmarket:
+    description: Generates a new shop with discounted prices.
+    usage: /blackmarket
+    permission: marketplace.blackmarket
+  transactions:
+    description: Displays transaction history.
+    usage: /transactions
+    permission: marketplace.history

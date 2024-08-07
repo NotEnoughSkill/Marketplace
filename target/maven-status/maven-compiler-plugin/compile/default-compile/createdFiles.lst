@@ -1,0 +1,8 @@
+me\notenoughskill\marketplace\commands\TransactionsCommand.class
+me\notenoughskill\marketplace\utils\ItemSerialization.class
+me\notenoughskill\marketplace\DB\Database.class
+me\notenoughskill\marketplace\commands\MarketplaceCommand.class
+me\notenoughskill\marketplace\utils\ItemUtils.class
+me\notenoughskill\marketplace\commands\BlackMarketCommand.class
+me\notenoughskill\marketplace\Marketplace.class
+me\notenoughskill\marketplace\commands\SellCommand.class
